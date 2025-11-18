@@ -91,5 +91,6 @@ Start the jar file to test that the application runs successfully as a jar file
 
 #### - Start app with /build/libs java -jar app-1.0.jar
 NOTE: replace "app-1.0.jar" with the name of YOUR jar file.
+
      java -jar build/libs/build-tools-exercises-1.0-SNAPSHOT.jar 
    
