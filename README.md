@@ -93,4 +93,29 @@ Start the jar file to test that the application runs successfully as a jar file
 NOTE: replace "app-1.0.jar" with the name of YOUR jar file.
 
      java -jar build/libs/build-tools-exercises-1.0-SNAPSHOT.jar 
+
+🔸 [EXERCISE 5: Start App with 2 Parameters]
+Now you want to add parameters to your application, so you and other users can pass different values on startup.
+
+Add parameter input to the Java code (see code snippet below, which you can copy)
+Rebuild the jar file
+Execute the jar file again with 2 params
+# Code snippet for Exercise 5!
+# Code snippet to add inside Application.java on line 16
+
+Logger log = LoggerFactory.getLogger(Application.class);
+try {
+      String one = args[0];
+      String two = args[1];
+      log.info("Application will start with the parameters {} and {}", one, two);
+} catch (Exception e) {
+      log.info("No parameters provided");
+}
+
+    gradle clean 
+    gradle build
+    java -jar build/libs/build-tools-exercises-1.0-SNAPSHOT.jar hello world
+
+### 2025-11-18T11:33:24.587+02:00  INFO 15245 --- [           main] com.example.Application                  : Application will start with the parameters hello and world
+                                                                                                                 
    
