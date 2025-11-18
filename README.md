@@ -17,11 +17,11 @@ https://gitlab.com/twn-devops-bootcamp/latest/04-build-tools/build-tools-exercis
 Your task:
 
 ### - Clone that project
-git clone https://gitlab.com/twn-devops-bootcamp/latest/04-build-tools/build-tools-exercises
+    git clone https://gitlab.com/twn-devops-bootcamp/latest/04-build-tools/build-tools-exercises
 ### - Move into the folder:
-cd build-tools-exercises
+    cd build-tools-exercises
 ### - Remove the Original Git History
-rm -rf .git
+    rm -rf .git
 ### - Create your own project/repository using its content
 git init
 git add .
