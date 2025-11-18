@@ -23,9 +23,9 @@ Your task:
 ### - Remove the Original Git History
     rm -rf .git
 ### - Create your own project/repository using its content
-git init
-git add .
-git commit -m "Initial commit based on build-tools-exercises"
+   git init
+   git add .
+   git commit -m "Initial commit based on build-tools-exercises"
 ### — Create Your Own Remote Repository
 
 Depending on where you want your new repo:
@@ -39,11 +39,11 @@ https://gitlab.com/your-username/your-new-repo.git
 
 ### - Add it as your remote:
 
-git remote add origin https://gitlab.com/your-username/your-new-repo.git
+    git remote add origin https://gitlab.com/your-username/your-new-repo.git
 
 ### - Push your project:
 
-git push -u origin main
+    git push -u origin main
 
 🔸 [EXERCISE 1: Build jar artifact]
 
@@ -54,3 +54,10 @@ You want to deploy the artifact to share that library with all team members. So:
 
 The Build will fail, because of a compile error in a test, so you can't build the jar.
 
+🔸 [EXERCISE 2: Run tests]
+
+#### - Fix the test, by changing "true" string to true boolean.
+     boolean result = myApp.getCondition(true);
+
+#### - Run gradle test to execute only the tests and check the fix.
+     gradle test
