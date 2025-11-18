@@ -100,8 +100,9 @@ Now you want to add parameters to your application, so you and other users can p
 Add parameter input to the Java code (see code snippet below, which you can copy)
 Rebuild the jar file
 Execute the jar file again with 2 params
-# Code snippet for Exercise 5!
-# Code snippet to add inside Application.java on line 16
+
+ Code snippet for Exercise 5!
+ Code snippet to add inside Application.java on line 16
 
 Logger log = LoggerFactory.getLogger(Application.class);
 try {
