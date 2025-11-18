@@ -71,7 +71,10 @@ You fixed the test. Now:
 This will delete the entire build/ directory:
 
     gradle clean
-    
+
+#### - Build the JAR file again: 
+
+    gradle build
 This will:
   1. compile your Java source
   2. run your tests
