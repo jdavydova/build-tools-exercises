@@ -114,6 +114,7 @@ Execute the jar file again with 2 params
           log.info("No parameters provided");
      }
 
+#### - and run:
     gradle clean 
     gradle build
     java -jar build/libs/build-tools-exercises-1.0-SNAPSHOT.jar hello world
