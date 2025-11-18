@@ -9,8 +9,6 @@ Use repository: https://gitlab.com/twn-devops-bootcamp/latest/04-build-tools/bui
 
 To work with the project for the exercises:
 
-Clone the project and
-create your own project/git repository from it
 ✅ How to Clone the Provided Project and Create Your Own Git Repository
 
 You were given this repository:
@@ -20,9 +18,9 @@ Your task:
 
 ### Clone that project
 git clone https://gitlab.com/twn-devops-bootcamp/latest/04-build-tools/build-tools-exercises
-    ### - Move into the folder:
+### - Move into the folder:
 cd build-tools-exercises
-    ### - Remove the Original Git History
+### - Remove the Original Git History
 
 
 ### Create your own project/repository using its content
