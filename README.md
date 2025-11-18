@@ -16,12 +16,32 @@ https://gitlab.com/twn-devops-bootcamp/latest/04-build-tools/build-tools-exercis
 
 Your task:
 
-### Clone that project
+### - Clone that project
 git clone https://gitlab.com/twn-devops-bootcamp/latest/04-build-tools/build-tools-exercises
 ### - Move into the folder:
 cd build-tools-exercises
 ### - Remove the Original Git History
+rm -rf .git
+### - Create your own project/repository using its content
+git init
+git add .
+git commit -m "Initial commit based on build-tools-exercises"
+### — Create Your Own Remote Repository
+
+Depending on where you want your new repo:
+If using GitLab
+Go to GitLab ➜ “New Project”
+Create an empty repository
+Copy the remote URL, e.g.:
+
+https://gitlab.com/your-username/your-new-repo.git
 
 
-### Create your own project/repository using its content
+### - Add it as your remote:
+
+git remote add origin https://gitlab.com/your-username/your-new-repo.git
+
+### - Push your project:
+
+git push -u origin main
 
