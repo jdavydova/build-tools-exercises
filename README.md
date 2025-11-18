@@ -61,3 +61,23 @@ The Build will fail, because of a compile error in a test, so you can't build th
 
 #### - Run gradle test to execute only the tests and check the fix.
      gradle test
+
+🔸 [EXERCISE 3: Clean and build App]
+
+You fixed the test. Now:
+
+#### - clean the build folder with gradle clean and
+
+This will delete the entire build/ directory:
+
+    gradle clean
+    
+This will:
+  1. compile your Java source
+  2. run your tests
+  3. package your app
+  4. produce the JAR file
+
+JAR will appear here:
+
+    build/libs/
