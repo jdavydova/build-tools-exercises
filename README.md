@@ -45,3 +45,9 @@ git remote add origin https://gitlab.com/your-username/your-new-repo.git
 
 git push -u origin main
 
+🔸 [EXERCISE 1: Build jar artifact]
+You want to deploy the artifact to share that library with all team members. So:
+
+try to build the jar file
+The Build will fail, because of a compile error in a test, so you can't build the jar.
+
