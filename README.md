@@ -23,9 +23,11 @@ Your task:
 ### - Remove the Original Git History
     rm -rf .git
 ### - Create your own project/repository using its content
-   git init
-   git add .
-   git commit -m "Initial commit based on build-tools-exercises"
+
+       git init
+       git add .
+       git commit -m "Initial commit based on build-tools-exercises"
+       
 ### — Create Your Own Remote Repository
 
 Depending on where you want your new repo:
